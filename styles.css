@@ -104,9 +104,6 @@ body{
 
 
 @media (max-width: 380px){
-    body{
-        background-color: BLACK;
-    }
 
     #divCenter{
         width: 90vw;
@@ -135,5 +132,22 @@ body{
 
     .btn:hover{
         border: 2px solid yellow;
+    }
+}
+
+
+@media (max-width: 950px){
+    #divImg{
+        width: 20%;
+        height: 30%;
+    }
+    #divCenter{
+        width: 95vw;
+        height: 85vh;
+        margin: 0;
+    }
+    #btnLinks{
+        width: 90%;
+        height: 85%;
     }
 }
